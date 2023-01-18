@@ -1,8 +1,10 @@
+import Home from "./pages/home/Home";
+import './App.css'
 
 function App() {
   return (
     <main>
-      <h2 className="text-center text-red-500 text-4xl">Hello Tailwind</h2>
+      <Home/>
     </main>
   );
 }
