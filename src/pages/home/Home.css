@@ -1,15 +1,13 @@
+.home__bg-container {
+  background-color: #ffffff;
+  background-image: url("../../assets/bgBanner.png");
+  background-position: top left;
+  background-size: cover;
+}
+
 .gradient__bg {
-  background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-
-  /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-
-  /* ie 10+ */
-  background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-
-  /* global 92%+ browsers support */
-  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  opacity: 1;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #07071C 0%, #12122840 100%);
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }

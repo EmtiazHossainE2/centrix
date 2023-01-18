@@ -1,0 +1,143 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.navbar__links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__links-logo {
+  margin-right: 2rem;
+}
+
+
+.navbar__links-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar__sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar__links-container p,
+.navbar__sign p,
+.navbar__menu-container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.navbar__sign button,
+.navbar__menu-container button,
+.banner__content-btn button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: transparent;
+  background-image: var(--gradient-text);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.navbar__menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.navbar__menu-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  right: -20px;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar__menu-container p {
+  margin: 1rem 0;
+}
+
+.navbar__menu-container_links-sign {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1092px) {
+
+  .navbar {
+    padding: 2rem;
+  }
+  .navbar__links-container p,
+  .navbar__sign p,
+  .navbar__menu-container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+    /* margin: 0 1rem; */
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar__links-container {
+    display: none;
+  }
+
+  .navbar__menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    padding: 2rem;
+  }
+
+  .navbar__sign {
+    display: none;
+  }
+
+  .navbar__menu-container {
+    top: 20px;
+  }
+
+  .navbar__menu-container_links-sign {
+    display: block;
+  }
+}
