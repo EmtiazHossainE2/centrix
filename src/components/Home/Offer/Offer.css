@@ -4,15 +4,10 @@
   background-position: bottom left;
   background-size: 50% 300px, cover;
   background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
-.offer__gradient-bg {
-  opacity: 1;
-  background-color: transparent;
-  background-image: linear-gradient(180deg, #07071C 0%, #12122840 100%);
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-}
-
+/**************************************** Media Query ************************************** */
 @media only screen and (max-width:1500px) {
   .offer__container {
     background-size: 48% 250px, cover;

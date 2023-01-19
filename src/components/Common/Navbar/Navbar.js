@@ -4,6 +4,7 @@ import { RiCloseLine } from 'react-icons/ri';
 import logo from '../../../assets/logo.png'
 import './Navbar.css'
 
+//************************************  Common Menu 
 const Menu = () => {
   return (
     <>
@@ -17,11 +18,14 @@ const Menu = () => {
   )
 }
 
+//*********************** Navbar 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
     <div className='navbar  container mx-auto'>
+
+      {/********************** * For Desktop  ********************* */}
       <div className="navbar__links">
         <div className="navbar__links-logo">
           <img src={logo} alt="logo" />
@@ -33,6 +37,8 @@ const Navbar = () => {
       <div className="centrixBtn navbar__sign">
         <button type="button">Get Started</button>
       </div>
+
+      {/********************** * For Mobile ********************* */}
       <div className="navbar__menu">
         {toggleMenu
           ? <RiCloseLine style={{ color: "white" }} size={27} onClick={() => setToggleMenu(false)} />
@@ -49,6 +55,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
+
     </div>
   )
 }

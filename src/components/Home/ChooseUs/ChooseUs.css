@@ -1,0 +1,5 @@
+.choose__us-gradient {
+  background-color: transparent;
+  background-image: radial-gradient(at center right, #235686 0%, #121228 100%);
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
