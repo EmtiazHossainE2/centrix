@@ -30,15 +30,6 @@
   margin-top: 1.5rem;
 }
 
-.banner__content-input {
-  width: 100%;
-  margin: 2rem 0 1rem;
-
-  display: flex;
-  flex-direction: row;
-}
-
-
 
 /**************************************** banner Right  ****************************************/
 .banner__right {
@@ -54,7 +45,6 @@
   .banner {
     flex-direction: column;
   }
-
   .banner-content {
     margin: 0 0 3rem;
   }
@@ -65,23 +55,7 @@
     font-size: 48px;
     line-height: 60px;
   }
-
   .banner__content p {
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .banner__content-people {
-    flex-direction: column;
-  }
-
-  .banner__content-people p {
-    margin: 0;
-    padding-bottom: 1rem;
-  }
-
-  .banner__content-input input,
-  .banner__content-input button {
     font-size: 16px;
     line-height: 24px;
   }
@@ -98,9 +72,4 @@
     line-height: 24px;
   }
 
-  .banner__content-input input,
-  .banner__content-input button {
-    font-size: 12px;
-    line-height: 16px;
-  }
 }
