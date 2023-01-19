@@ -1,0 +1,30 @@
+
+@media screen and (max-width:1025px) {
+  .about__right iframe{
+    width: 460px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .about__right iframe{
+    width: 420px;
+  }
+}
+
+@media screen and (max-width:475px) {
+  .about__right iframe{
+    width: 390px;
+  }
+}
+
+@media screen and (max-width:391px) {
+  .about__right iframe{
+    width: 340px;
+  }
+}
+
+@media screen and (max-width:340px) {
+  .about__right iframe{
+    width: 280px;
+  }
+}

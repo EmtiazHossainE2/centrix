@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="navbar__links-container">
         <Menu />
       </div>
-      <div className="navbar__sign">
+      <div className="centrixBtn">
         <button type="button">Get Started</button>
       </div>
       <div className="navbar__menu">
@@ -43,7 +43,7 @@ const Navbar = () => {
             <div className="navbar__menu-container_links">
               <Menu />
             </div>
-            <div className="navbar__menu-container_links-sign">
+            <div className="navbar__menu-container_links-sign centrixBtn">
               <button type="button">Get Started</button>
             </div>
           </div>

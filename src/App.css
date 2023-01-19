@@ -51,6 +51,21 @@ a {
   }
 }
 
+.centrixBtn button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: transparent;
+  background-image: var(--gradient-text);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .section__padding {
   padding: 4rem 6rem;
 }
@@ -58,6 +73,7 @@ a {
 .section__margin {
   margin: 4rem 6rem;
 }
+
 @media screen and (max-width: 700px) {
   .section__padding {
     padding: 4rem;

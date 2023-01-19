@@ -41,24 +41,6 @@
   cursor: pointer;
 }
 
-.navbar__sign button,
-.navbar__menu-container button,
-.banner__content-btn button {
-  padding: 0.5rem 1rem;
-  color: #fff;
-  background-color: transparent;
-  background-image: var(--gradient-text);
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-
 .navbar__menu {
   margin-left: 1rem;
   display: none;
