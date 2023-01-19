@@ -1,0 +1,18 @@
+.activeColor {
+  background-color: transparent;
+  background-image: var(--gradient-text);
+}
+.branding__content{
+  padding: 40px;
+}
+
+.branding__content:hover {
+  background-color: transparent;
+  background-image: var(--gradient-bg);
+}
+
+@media only screen and (max-width:425px){
+  .branding__content{
+    padding: 20px 10px;
+  }
+}
