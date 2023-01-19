@@ -29,7 +29,6 @@
 }
 
 .navbar__links-container p,
-.navbar__sign p,
 .navbar__menu-container p {
   color: #fff;
   font-family: var(--font-family);
@@ -78,14 +77,9 @@
     padding: 2rem;
   }
   .navbar__links-container p,
-  .navbar__sign p,
   .navbar__menu-container p {
-    color: #fff;
-    font-family: var(--font-family);
-    font-weight: 500;
     font-size: 15px;
     text-transform: capitalize;
-    /* margin: 0 1rem; */
     cursor: pointer;
   }
 }
@@ -94,9 +88,15 @@
   .navbar__links-container {
     display: none;
   }
+  .navbar__sign {
+    display: none;
+  }
 
   .navbar__menu {
     display: flex;
+  }
+  .navbar__menu-container_links-sign {
+    display: block;
   }
 }
 
@@ -104,6 +104,7 @@
   .navbar {
     padding: 2rem 4rem;
   }
+  
 }
 
 @media screen and (max-width: 576px) {
@@ -111,15 +112,8 @@
     padding: 2rem;
   }
 
-  .navbar__sign {
-    display: none;
-  }
-
   .navbar__menu-container {
     top: 20px;
   }
 
-  .navbar__menu-container_links-sign {
-    display: block;
-  }
 }

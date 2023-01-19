@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="navbar__links-container">
         <Menu />
       </div>
-      <div className="centrixBtn">
+      <div className="centrixBtn navbar__sign">
         <button type="button">Get Started</button>
       </div>
       <div className="navbar__menu">
