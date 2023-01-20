@@ -9,7 +9,7 @@ const ChooseUs = () => {
       <div className="container mx-auto section__padding">
         <div className='flex flex-col lg:flex-row justify-between items-center'>
           {/********************** * Choose Left ********************* */}
-          <div>
+          <div className='basis-1/2'>
             <p className='text-[#02e0b8] capitalize mt-5'>Why Choose Us</p>
             <h2 className='gradient__text text-2xl lg:text-5xl font-bold py-5'>With great power comes great productivity.</h2>
             <div>
@@ -30,7 +30,7 @@ const ChooseUs = () => {
             </div>
           </div>
           {/********************** * Choose Right ********************* */}
-          <div>
+          <div className='basis-1/2'>
             <img src={chooseBg} alt="chooseBg" />
           </div>
         </div>

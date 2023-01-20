@@ -1,0 +1,51 @@
+.discover {
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1024px) {
+  video {
+    top: 25%;
+    left: 50%;
+  }
+}
+
+@media only screen and (max-width: 891px) {
+  video {
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  video {
+    top: 42%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .p{
+    display: none;
+  }
+  video {
+    top: 50%;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .p{
+    display: block;
+  }
+  video {
+    display: none;
+  }
+}
