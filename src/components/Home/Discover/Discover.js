@@ -14,7 +14,7 @@ const Discover = () => {
           <h2 className='text-2xl md:text-3xl lg:text-5xl font-bold pb-5'>new  big thing in technology</h2>
           <p className='text-[15px] md:text-[13px] lg:text-[17px] py-2 p'>Aapiente psam aspernatur consectetur facere quis consequatur reprehenderit facilis doloremque</p>
           <p className='text-[15px] md:text-[13px] lg:text-[17px]'>Culpa ut sint nesciunt ipsa officiis eaque. Eos reprehenderit iure, tenetur quasi reiciendis obca .</p>
-          <div className="centrixBtn pt-8 pb-10">
+          <div className="centrixBtn pt-8">
             <button type="button" id='discover'>Discover More</button>
           </div>
         </div>
