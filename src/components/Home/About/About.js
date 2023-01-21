@@ -3,8 +3,8 @@ import './About.css'
 
 const About = () => {
   return (
-    <div className='container mx-auto section__padding' id='about'>
-      <div className='about flex flex-col lg:flex-row justify-between items-center space-x-5'>
+    <div className='container mx-auto section__padding ' id='about'>
+      <div className='about flex flex-col lg:flex-row justify-between items-center lg:space-x-5'>
         {/********************** * About Left ********************* */}
         <div
           className="about__left text-white"

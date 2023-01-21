@@ -6,7 +6,7 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <main>
+    <main className='overflow-hidden'>
       <div className="home__bg-container">
         <div className='gradient__bg'>
           <Navbar />
