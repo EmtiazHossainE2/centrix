@@ -10,18 +10,8 @@
   color: #eb3de2;
 }
 
-@media screen and (max-width: 490px) {
-  .scroll-btn {
-    left: 80%;
-  }
-}
-@media screen and (min-width: 776px) {
+@media screen and (max-width: 576px) {
   .scroll-btn {
     left: 90%;
-  }
-}
-@media screen and (min-width: 992px) {
-  .scroll-btn {
-    left: 95%;
   }
 }
