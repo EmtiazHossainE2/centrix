@@ -50,7 +50,8 @@ const FooterBottom = () => {
           </a>
         </div>
         <div >
-          <p className='text-center text-[14px]'>Copyright © {currentYear} Centrix, All rights reserved. Developer <a className='text-[#02e0b8]' href="https://www.linkedin.com/in/emtiazhossaine2/" target="_blank" rel="noopener noreferrer">Emtiaz</a></p>
+          <p className='text-center text-[14px]'>Copyright © {currentYear} <br className='lg:hidden' /> Centrix - <a className='text-[#02e0b8]' href="https://themeforest.net/item/centrix-artificial-intelligence-technology-services-elementor-template-kit/35232880?_ga=2.209195986.1796671126.1674206463-470280518.1674061811" target="_blank" rel="noopener noreferrer">Themeforest </a> <br className='lg:hidden' /> All rights reserved. Developer <a className='text-[#02e0b8]' href="https://www.linkedin.com/in/emtiazhossaine2/" target="_blank" rel="noopener noreferrer">Emtiaz</a>
+          </p>
         </div>
       </div>
 
