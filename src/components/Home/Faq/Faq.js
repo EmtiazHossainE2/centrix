@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Accordion from './Accordion'
-import './Faq.css'
 import { faqData } from './faqData'
 
 const Faq = () => {
