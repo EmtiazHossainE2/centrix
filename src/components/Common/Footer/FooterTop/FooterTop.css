@@ -1,0 +1,21 @@
+.footer__top {
+  background-color: transparent;
+  background-image: radial-gradient(at center right, #235686 0%, #121228 100%);
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.footer__top-link a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer__top-link svg {
+  color: #02e0b8;
+  font-size: 7px;
+}
+
+.footer__top-link a:hover {
+  color: #02e0b8;
+}

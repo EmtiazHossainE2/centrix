@@ -3,7 +3,7 @@ import './Cta.css'
 
 const Cta = () => {
   return (
-    <div className='container mx-auto section__padding'>
+    <div className='container mx-auto section__padding relative mb-[-130px] z-0'>
       <div className='Cta__gradient-bg text-white py-12 px-5 flex flex-col lg:flex-row justify-between items-center'>
         <div className='basis-7/12'>
           <h3 className='text-2xl lg:text-3xl font-bold'>Exploring machine learning or have a specific use case? Let’s talk.</h3>
