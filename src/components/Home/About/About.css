@@ -7,13 +7,13 @@
 
 @media screen and (max-width:576px) {
   .about__right iframe{
-    /* width: 420px; */
+    width: 420px;
   }
 }
 
 @media screen and (max-width:475px) {
   .about__right iframe{
-    /* width: 380px; */
+    width: 370px;
   }
 }
 
