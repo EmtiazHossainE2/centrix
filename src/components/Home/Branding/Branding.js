@@ -6,7 +6,7 @@ import './Branding.css'
 
 const Branding = () => {
   return (
-    <div className='branding container mx-auto section__padding grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center'>
+    <div className='branding container mx-auto section__padding grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center relative md:mt-[-140px]'>
       {brandData.map((data, index) => (
         <div key={index}>
           <div className={`branding__content text-white  shadow-xl rounded-lg  md:text-center container mx-auto ${index === 1 ? "activeColor " : " bg-[#16337a] "} `}>

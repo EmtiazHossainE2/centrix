@@ -38,7 +38,7 @@ video {
     display: none;
   }
   video {
-    top: 50%;
+    top: 54%;
   }
 }
 @media only screen and (max-width: 391px) {

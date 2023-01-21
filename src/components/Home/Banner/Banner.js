@@ -3,7 +3,7 @@ import './Banner.css'
 
 const Banner = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto md:pb-20'>
       <div className='section__padding flex flex-col lg:flex-row justify-between items-center space-x-5' id='home'>
         <div className="basis-1/2 ">
           <h1 className='text-4xl md:text-5xl font-bold gradient__text pb-5 md:py-5'>Artificial Intelligence for Business Applications</h1>
