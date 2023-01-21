@@ -7,7 +7,7 @@ const Accordion = ({ children, question, index, activeIndex, setActiveIndex }) =
   };
 
   return (
-    <>
+    <div>
       <div onClick={() => handleSetIndex(index)} className={`flex justify-between items-center p-2 mt-2 rounded  cursor-pointer ${activeIndex === index ? 'bg-[#1a4064]' : 'bg-[#121228]'}`}>
         <div className='p-1'>
           <div className='text-white font-[600]'>{question}</div>
@@ -26,7 +26,7 @@ const Accordion = ({ children, question, index, activeIndex, setActiveIndex }) =
           {children}
         </div>
       )}
-    </>
+    </div>
   );
 }
 

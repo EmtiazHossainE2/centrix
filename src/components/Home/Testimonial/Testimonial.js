@@ -11,7 +11,7 @@ const Testimonial = () => {
   return (
     <div className='container mx-auto section__padding py-16' id='testimonial'>
       <div className='text-center'>
-        <p className='text-[#02e0b8] 2xl:pt-20'>Testimonial</p>
+        <p className='text-[#02e0b8] 2xl:pt-20 big:pt-72'>Testimonial</p>
         <h2 className='text-4xl md:text-5xl font-bold gradient__text pb-8 lg:pb-12 md:pt-5'>What they say</h2>
       </div>
 
