@@ -6,10 +6,16 @@ import SingleOffer from './SingleOffer'
 const Offer = () => {
   return (
     <div className='container mx-auto section__padding ' id='offer'>
-      <div className='offer__container'>
+      <div className='offer__container' >
         <div className='grid grid-cols-1 lg:grid-cols-12 p-5 shadow-md '>
           {/********************** * Offer Left ********************* */}
-          <div className="lg:col-span-5">
+          <div
+            className="lg:col-span-5"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine"
+          >
             <p className='text-[#02e0b8] capitalize mt-5'>What we offer</p>
             <h2 className='gradient__text text-2xl lg:text-5xl font-bold pt-5'>Artificial intelligence will help everyone succeed.</h2>
             <div className='mt-5 mb-5 lg:mb-0 w-[50px] h-[3px] bg-[#02e0b8]' />

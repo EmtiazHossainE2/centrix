@@ -25,7 +25,8 @@ const brandLogo = [
 const Brand = () => {
   return (
     <section className="container mx-auto  section__padding ">
-      <div className="lg:px-20">
+      <div className="lg:px-20" data-aos="fade-up"
+     data-aos-duration="3000">
         <Swiper
           loop={true}
           spaceBetween={10}

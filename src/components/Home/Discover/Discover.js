@@ -9,7 +9,13 @@ const Discover = () => {
         <video autoPlay loop muted>
           <source src={video} type="video/mp4" />
         </video>
-        <div className="flex flex-col items-center justify-center section__padding text-center">
+        <div
+          className="flex flex-col items-center justify-center section__padding text-center"
+          data-aos="fade-down"
+          data-aos-offset="300"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-sine"
+        >
           <h2 className='text-2xl md:text-3xl lg:text-5xl font-bold pb-2 pt-10 lg:pt-5 2xl:pt-20'>Artificial Intelligence is the </h2>
           <h2 className='text-2xl md:text-3xl lg:text-5xl font-bold pb-5'>new  big thing in technology</h2>
           <p className='text-[15px] md:text-[13px] lg:text-[17px] py-2 p'>Aapiente psam aspernatur consectetur facere quis consequatur reprehenderit facilis doloremque</p>

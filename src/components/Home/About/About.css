@@ -13,13 +13,13 @@
 
 @media screen and (max-width:475px) {
   .about__right iframe{
-    width: 370px;
+    width: 350px;
   }
 }
 
 @media screen and (max-width:391px) {
   .about__right iframe{
-    width: 320px;
+    width: 300px;
   }
 }
 

@@ -12,13 +12,19 @@ const FooterTop = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
 
           {/************************************  Logo *************************************/}
-          <div>
+          <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
             <img src={logo} alt="logo" />
             <p className='mt-4'>Eorem um dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
           </div>
 
           {/************************************  Service *************************************/}
-          <div>
+          <div  data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
             <h4 className='text-2xl font-bold mb-5'>Service</h4>
             <div className='flex flex-col gap-y-2 footer__top-link'>
               <Link to="/" ><BsFillSquareFill />Data Engineering</Link>
@@ -31,7 +37,10 @@ const FooterTop = () => {
           </div>
 
           {/************************************  Company *************************************/}
-          <div>
+          <div  data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
             <h4 className='text-2xl font-bold mb-5'>Company</h4>
             <div className='flex flex-col gap-y-2 footer__top-link'>
               <a href="#about"><BsFillSquareFill />About us</a>
@@ -44,7 +53,10 @@ const FooterTop = () => {
           </div>
 
           {/************************************  Newsletter *************************************/}
-          <div>
+          <div data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
             <h4 className='text-2xl font-bold '>Newsletter</h4>
             <p className='py-5'>Signup our newsletter to get update information, news or insight.</p>
             <input
